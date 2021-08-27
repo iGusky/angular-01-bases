@@ -2,14 +2,13 @@
 <hr />
 <div class="row">
   <div class="col">
-    <app-personajes [personajes]="personajes">
+    <app-personajes>
     </app-personajes>
   </div>
 
   <div class="col">
     <app-agregar 
       [nuevo]="nuevo"
-      (onNewPersonaje)="agregarNuevoPersonaje( $event )"
     >
     </app-agregar>
   </div>
